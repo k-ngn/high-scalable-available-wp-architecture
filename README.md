@@ -5,21 +5,11 @@
 ![image](https://drive.google.com/uc?export=view&id=1tvrUAoCU6QafY6VFrh_CkxDEsPqmb7R7)
 
 ---
-## Demo Structures
-
-1. Provision the environment and review tasks
-2. Configure On-premises Side infrastructure 
-3. Establish Private Connectivity between the environments (VPC Peer)
-4. Create & configure the AWS Side infrastructure (App and DB)
-5. Migrate Database & Cutover
-6. Clean up
-
----
-## 1. Provision the environment and review tasks
+## Provision the environment and review tasks
 
 Click the link to deploy the **Base-infras deployment:** [Stack deployment](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://aws-labs-resources-kng318.s3.amazonaws.com/cfn-templates/DemoVPC.yaml&stackName=DemoVPC)
 
-After the stack is in `CREATE_COMPLETE` state, this stack will create a simulated **on-premises** environment and an AWS environment using 2 different VPCs then we can connect them together using VPC Peering (simulate VPN/Direct Connect connection).
+After the stack is in `CREATE_COMPLETE` state, this stack will create necessary infrastracture for this demo
 
 ---
 ### RDS Setup
